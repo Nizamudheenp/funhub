@@ -47,3 +47,64 @@
     width: 100%;
     height: 200px;
 }
+
+/* contact */
+
+#contactSection{
+    height: 70vh;
+
+    border-radius: 10px;
+    margin: 100px;
+   
+}
+#contactSection h2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+#contactSection form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+#contactSection form input{
+    width: 400px;
+    background-color: #308172;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    transition: all 0.2s ease;
+}
+#contactSection form input:hover{
+    width: 410px;
+}
+#contactSection form ::-webkit-input-placeholder{
+    color: #e4d6d6;
+}
+#contactSection form .form-question{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;  
+}
+#contactSection form .form-question input{
+    height: 18px;
+}
+
+#contactSection form button{
+    padding: 10px 50px;
+    border-radius: 15px;
+    background-color: rgb(7, 68, 52);
+    color: #fff;
+    border: none;
+
+}
+#contactSection form button:hover{
+    background-color: rgb(18, 98, 77); 
+}
