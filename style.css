@@ -1,0 +1,49 @@
+*{
+    font-family: cursive;
+}
+/* indexpage */
+
+#indexJumbotron{
+    padding: 30px;
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    z-index: 5;
+
+}
+#indexJumbotron h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(189, 251, 4);
+}
+#indexJumbotron p{
+    font-size: 18px;
+
+    color: rgb(237, 19, 8);
+    text-shadow: 5px 5px 15px #000;
+}
+
+
+#carouselExampleAutoplaying img{
+    height: 80vh;
+}
+
+/* events */
+
+#event-head, #event-head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+#event-head h1, #event-head2 h1{
+    color: rgb(66, 34, 9);
+    font-weight: 600;
+}
+
+#event-list .col img{
+    width: 100%;
+    height: 200px;
+}

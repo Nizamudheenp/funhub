@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- nav bar -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Eleventh navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ucAub4YF8_FsU0pJsDf0gzGOmNrzWnrnfg&s" alt=""
+          width="100px" height="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
+        aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample09">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">events</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#cultureEvent">cultural heritage festival</a></li>
+              <li><a class="dropdown-item" href="#cleanEvent">community clean-up day</a></li>
+              <li><a class="dropdown-item" href="#cinemaEvent">outdoor movie nights</a></li>
+              <li><a class="dropdown-item" href="#musicEvent">music & arts festival</a></li>
+              <li><a class="dropdown-item" href="#skillEvent">skill-building workshops</a></li>
+              <li><a class="dropdown-item" href="#familyEvent">family fun day</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>
+        <form role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- events -->
+  <div id="event-head">
+    <h1>EVENTS</h1>
+  </div>
+
+  <div id="event-list" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 m-1">
+    <div class="col" id="cultureEvent">
+      <div class="card shadow-sm">
+        <img
+          src="https://images.unsplash.com/photo-1505932794465-147d1f1b2c97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fEN1bHR1cmFsJTIwSGVyaXRhZ2UlMjBGZXN0aXZhbHxlbnwwfHwwfHx8MA%3D%3D"
+          alt="">
+        <div class="card-head p-2">
+          <h5>Cultural Heritage Festival</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: A celebration of the diverse cultures within the community. The event
+            showcases traditional music, dance, food, and crafts from various cultural groups. <br><br>
+
+            Activities: Cultural performances, food tastings, craft markets, cultural exhibits.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" id="cleanEvent">
+      <div class="card shadow-sm">
+        <img
+          src="https://media.istockphoto.com/id/1130373923/photo/friendly-family-organized-cleaning-day-to-clean-park-of-household-garbage.webp?a=1&b=1&s=612x612&w=0&k=20&c=6PaDaiom2xqgmlo-rEpZTO25XrRhaB5mxMaE2Lk8YH4="
+          alt="">
+        <div class="card-head p-2">
+          <h5>Community Clean-Up Day</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: A day dedicated to beautifying the neighborhood by cleaning parks, streets,
+            and public areas. Volunteers gather to pick up litter, plant trees, and make the community cleaner and
+            greener. <br><br>
+
+            Activities: Trash pick-up, tree planting, recycling drives, eco-friendly workshops.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" id="cinemaEvent">
+      <div class="card shadow-sm">
+        <img
+          src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b3V0ZXIlMjBtb3ZpZSUyMGZlc3RpdmVsfGVufDB8fDB8fHww"
+          alt="">
+        <div class="card-head p-2">
+          <h5>Outdoor Movie Nights</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+            Description: A series of outdoor movie screenings during the summer months. Families and friends can gather
+            in a local park to enjoy classic and contemporary films under the stars. <br><br>
+
+            Activities: Movie screenings, picnic spots, food trucks, pre-movie entertainment.
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" id="musicEvent">
+      <div class="card shadow-sm">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1664303104983-1de14f6f9218?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWMlMjBhbmQlMjBhcnRzJTIwZmVzdGl2YWx8ZW58MHx8MHx8fDA%3D"
+          alt="">
+        <div class="card-head p-2">
+          <h5>Music & Arts Festival</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: A weekend festival featuring local musicians, artists, and performers. The
+            event includes live music, art exhibitions, food stalls, and craft workshops. It’s a celebration of local
+            talent and creativity. <br><br>
+
+            Activities: Concerts, art displays, interactive art sessions, food and craft markets.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" id="skillEvent">
+      <div class="card shadow-sm">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1664474810661-6d1177639e5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fFNraWxsJTIwQnVpbGRpbmclMjBXb3Jrc2hvcHMlM0F8ZW58MHx8MHx8fDA%3D"
+          alt="">
+        <div class="card-head p-2">
+          <h5>Skill-Building Workshops</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: Workshops aimed at teaching new skills and hobbies. These can range from
+            cooking classes to digital literacy, gardening, and DIY crafts. <br><br>
+
+            Activities: Interactive workshops, expert talks, hands-on learning sessions.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" id="familyEvent">
+      <div class="card shadow-sm">
+        <img
+          src="https://images.unsplash.com/photo-1615723411974-ed6cf1a6180a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZhbWlseSUyMGZ1biUyMGRheXxlbnwwfHwwfHx8MA%3D%3D"
+          alt="">
+        <div class="card-head p-2">
+          <h5>Family Fun Day</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: A fun-filled day for families with activities and games for children and
+            adults. The event features face painting, bouncy castles, relay races, and a family picnic area. <br><br>
+
+            Activities: Games, competitions, food stalls, family-friendly entertainment.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="event-head2">
+      <h1>UPCOMING EVENTS</h1>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://media.istockphoto.com/id/1941134987/photo/happy-farmer-selling-organic-strawberries-to-a-client-at-a-farmers-market.webp?a=1&b=1&s=612x612&w=0&k=20&c=TeCe9CnbJCk15fW9jwwS6IdT_5un3pMuDujvRc8KyLU="
+          alt="">
+        <div class="card-head p-2">
+          <h5>Local Farmers' Market</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: A weekly farmers' market where local farmers and artisans can sell fresh
+            produce, homemade goods, and crafts. It supports local businesses and promotes healthy eating. <br><br>
+
+            Activities: Shopping stalls, cooking demonstrations, live music, kids' activities.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1663051227906-41181a2bb6e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhbHRoJTIwYW5kJTIwd2VsbG5lc3MlMjBmYWlyfGVufDB8fDB8fHww"
+          alt="">
+        <div class="card-head p-2">
+          <h5>Health & Wellness Fair</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: An event focused on promoting health and well-being in the community. Local
+            health professionals provide free screenings, wellness workshops, and fitness classes. <br><br>
+
+            Activities: Health screenings, yoga sessions, nutrition workshops, fitness demonstrations.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1678655852239-e6240e7192a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FyZGVuJTIwdG91cnN8ZW58MHx8MHx8fDA%3D"
+          alt="">
+        <div class="card-head p-2">
+          <h5>Garden Tours</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Description: Guided tours of local gardens showcasing diverse plants and gardening
+            techniques. Garden experts provide insights and tips for gardening enthusiasts. <br><br>
+
+            Activities: Garden tours, gardening workshops, plant sales, Q&A sessions with experts.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="text-body-secondary">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
