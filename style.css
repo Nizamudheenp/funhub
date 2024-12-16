@@ -39,7 +39,7 @@
     height: 100px;
 }
 #event-head h1, #event-head2 h1{
-    color: rgb(66, 34, 9);
+    color: rgb(189, 251, 4);
     font-weight: 600;
 }
 
@@ -58,6 +58,7 @@
    
 }
 #contactSection h2{
+     color: rgb(189, 251, 4);
     text-align: center;
     margin-top: 20px;
     font-weight: 600;
@@ -107,4 +108,40 @@
 }
 #contactSection form button:hover{
     background-color: rgb(18, 98, 77); 
+}
+
+/* about us */
+
+/* About Us Section */
+.about-us {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.about-us h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(189, 251, 4);
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-us ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.about-us ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about-us h3 {
+    font-size: 29px;
+    color: rgb(189, 251, 4);
+    margin-top: 30px;
 }
